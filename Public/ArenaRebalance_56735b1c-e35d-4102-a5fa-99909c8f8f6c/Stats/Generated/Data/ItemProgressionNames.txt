@@ -1,0 +1,3 @@
+new namegroup "SP_Rebalance_DallisHammer"
+add name "The Reckoning","This hammer is made of denser stuff than its human namesake: Dallis. Spider-leg cracks mark the surface, yet it seems hardy enough."
+

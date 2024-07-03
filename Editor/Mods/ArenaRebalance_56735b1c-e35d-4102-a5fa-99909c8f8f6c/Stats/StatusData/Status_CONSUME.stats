@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SP_SLOWED" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="SLOWED" />
+        <field name="SavingThrow" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="SavingThrow" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="In range of Medusa Head. Movement and Dodge is reduced." />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Polymorph_PetrifyingVisage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="MEDUSA_HEAD" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Medusa Head" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Slows enemies in [1] range." />
+        <field name="DescriptionParams" type="StringStatObjectFieldDefinition" value="AuraRadius" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Polymorph_MedusaHead" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_MedusaHead" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_Head" />
+        <field name="AuraRadius" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="AuraEnemies" type="StringStatObjectFieldDefinition" value="SP_SLOWED" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Shout_PetrifyingVisage" />
+        <field name="Items" type="StringStatObjectFieldDefinition" value="ARM_MedusaHead" />
+        <field name="ForceStackOverwrite" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SP_CC_IMMUNITY" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Immune to Crowd Control" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="You have been a victim to a turn skipping status. As a result, you are immune to Crowd Control." />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Source_Invulnerability_Source" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="FormatStringColor" />
+        <field name="SavingThrow" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="SavingThrow" />
+        <field name="ImmuneFlag" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AttributeFlag" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_SP_CC_IMMUNITY" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_CCImmunity" />
+        <field name="StackPriority" type="IntegerStatObjectFieldDefinition" value="99" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TAUNTED" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Taunted" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Enemy will prefer attacking the caster. Cured by Clear-Minded, Enraged, Arcane Stitch." />
+        <field name="DescriptionParams" type="StringStatObjectFieldDefinition" value="StatusCause" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Taunted" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatusEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_GP_Status_Taunted_01,KeepRot:Dummy_StatusFX" />
+        <field name="ImmuneFlag" type="EnumerationStatObjectFieldDefinition" value="35" enumeration_type_name="AttributeFlag" />
+        <field name="IsChanneled" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_Taunted" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_Taunted" />
+        <field name="LoseControl" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SP_SUICIDE" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Suicide" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target will explode once the status expires." />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Fire_FireBall" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="24" enumeration_type_name="FormatStringColor" />
+        <field name="LeaveAction" type="StringStatObjectFieldDefinition" value="Projectile_SP_BomberExplosion" />
+        <field name="DieAction" type="StringStatObjectFieldDefinition" value="Projectile_SP_BomberExplosion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SP_WEB" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Enwebbed" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Unable to move or dodge. Can not be targeted by teleportation skills." />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Webbed" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="FormatStringColor" />
+        <field name="StatusEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_GP_Status_Enwebbed_01:Dummy_Root" />
+        <field name="ImmuneFlag" type="EnumerationStatObjectFieldDefinition" value="53" enumeration_type_name="AttributeFlag" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_Web" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_Web" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SP_SUCKER_PUNCH_CD" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Sucker Punch Cooldown" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Sucker Punch will be ready to use again after status expires." />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_SuckerPunch" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="33" enumeration_type_name="FormatStringColor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SP_OC_SLOW_IMMUNITY" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Oily Carapace" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Character has recently used Oily Caparace making them immune to Slowed." />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Skillcrafting_Earth_OilyCarapace" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="FormatStringColor" />
+        <field name="ImmuneFlag" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AttributeFlag" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_OC_SLOW_IMMUNITY" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_OC_SLOW_IMMUNITY" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SP_CT_SLIP_IMMUNITY" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Cryotherapy" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Character has recently used Cryotherapy making them immune to Slipping." />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Skillcrafting_Water_Cryotherapy" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="23" enumeration_type_name="FormatStringColor" />
+        <field name="ImmuneFlag" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AttributeFlag" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_CT_SLIP_IMMUNITY" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_OC_SLIP_IMMUNITY" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SP_TORNADO" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Tornado" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Air_Tornado" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_SP_Tornado" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="STACK_SP_TORNADO" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

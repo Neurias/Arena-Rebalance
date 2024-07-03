@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_Axe_2H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_TwoHandedAxes" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="TwoHandedAxe,CuttingTool" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="TwoHandedAxe" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="20" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_Mace_2H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_TwoHandedMaces" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="TwoHandedMaces,Hammer" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="TwoHandedMace" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="20" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_Sword_2H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_TwoHandedSwords" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="TwoHandedSword,CuttingTool" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="TwoHandedSword" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="20" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_Mace_1H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Clubs" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Club,Hammer" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="Club" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_Sword_1H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Swords" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Sword,CuttingTool" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="Sword" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_Axe_1H" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Axes" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Axe,CuttingTool" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="Axe" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WPN_Spear" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Spears" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Spear" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="Spear" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_Totem_Earth" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Summon_Totem_Wood" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Damage Type" />
+        <field name="Projectile" type="StringStatObjectFieldDefinition" value="00aaf396-71e6-475d-82ca-fb656d9c3b5c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_Incarnate_Fire_Infused_Giant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Summon_Incarnate_Fire_Infused" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="65" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_Incarnate_Giant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Summon_Incarnate" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="65" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_Incarnate_Water_Infused_Giant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Summon_Incarnate_Water_Infused" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="65" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_Incarnate_Poison_Infused_Giant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Summon_Incarnate_Poison_Infused" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="65" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_Incarnate_Earth_Infused_Giant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Summon_Incarnate_Earth_Infused" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="65" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_Incarnate_Electric_Infused_Giant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Summon_Incarnate_Electric_Infused" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="65" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_Incarnate_Blood_Infused_Giant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Summon_Incarnate_Blood_Infused" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="65" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_Totem_Wood" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Wands" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="EMPTY" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Intelligence 0" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="80" />
+        <field name="Projectile" type="StringStatObjectFieldDefinition" value="f17f6dbb-bdee-47dd-9c3a-beafa52c5115" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="InventoryTabs" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DamageSurface_FrostExplosion" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="75" />
+        <field name="Charges" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summon_Plant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_NpcTwoHandedSwords" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="EMPTY" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="Damage Type" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="90" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="WeaponType" />
+        <field name="AnimType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AnimType" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="POISONED,30,2" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="InventoryTabs" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

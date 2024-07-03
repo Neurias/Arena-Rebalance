@@ -1,0 +1,23 @@
+EVENTS
+EVENT CharacterSetCCImmunity
+VARS
+    CHARACTER:_Character
+     STATUS:_Status
+ON
+    OnCharacterStatusRemoved(_Character, _Status)
+ACTIONS
+IF "c1|c2|c3|c4|c5|c6|c7|c8|c9|c10"
+        IsEqual(_Status, "FROZEN")
+        IsEqual(_Status, "STUNNED")
+        IsEqual(_Status, "CHARMED")
+        IsEqual(_Status, "FEAR")
+        IsEqual(_Status, "KNOCKED_DOWN")
+        IsEqual(_Status, "PETRIFIED")
+        IsEqual(_Status, "SLEEPING")
+        IsEqual(_Status, "MADNESS")
+        IsEqual(_Status, "CHICKEN")
+		IsEqual(_Status, "TAUNTED")
+    THEN
+        CharacterApplyStatus(_Character, "SP_CC_IMMUNITY", 1, 1)
+    ENDIF
+       

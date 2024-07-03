@@ -1,0 +1,13 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+CharacterGuarded(_)
+THEN
+DB_NOOP();
+
+EXITSECTION
+
+ENDEXITSECTION

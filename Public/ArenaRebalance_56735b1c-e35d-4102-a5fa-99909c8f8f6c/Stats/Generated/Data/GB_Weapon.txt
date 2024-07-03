@@ -1,0 +1,11 @@
+new entry "Soulcatcher_Zombie"
+type "Weapon"
+using "_NpcClubs"
+data "ItemGroup" "EMPTY"
+data "DamageBoost" "0"
+data "Durability" "50"
+data "WeaponType" "None"
+data "ExtraProperties" "POISONED,20,2"
+data "Flags" "Unbreakable"
+data "InventoryTab" "Hidden"
+

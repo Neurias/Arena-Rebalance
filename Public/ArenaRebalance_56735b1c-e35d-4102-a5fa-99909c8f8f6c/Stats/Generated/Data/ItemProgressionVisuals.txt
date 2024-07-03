@@ -1,0 +1,6 @@
+new itemgroup "ArenaPolymorphWarfare_Mace2H"
+
+add levelgroup 0,0,"All"
+add rootgroup "d9bd8aee-d515-4aab-8eb9-d8bb065a362f",""
+add namegroup "SP_Rebalance_DallisHammer","","Item_WPN_Humans_Mace_2H_D_VAR"
+

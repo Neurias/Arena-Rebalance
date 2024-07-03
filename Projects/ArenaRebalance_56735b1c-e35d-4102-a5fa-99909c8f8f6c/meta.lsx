@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" />
+    <version major="3" minor="6" revision="6" build="0" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" value="56735b1c-e35d-4102-a5fa-99909c8f8f6c" type="23" />
+            <attribute id="Name" value="ArenaRebalance" type="23" />
+            <attribute id="Type" value="Add-on" type="23" />
+            <attribute id="UUID" value="adee442e-a29d-49a6-85ed-bcd6b5bf585b" type="23" />
+        </node>
+    </region>
+</save>

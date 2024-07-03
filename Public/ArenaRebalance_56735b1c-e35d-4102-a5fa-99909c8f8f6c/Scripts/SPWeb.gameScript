@@ -1,0 +1,160 @@
+#INCLUDE Game/Statuses
+INIT
+	USING SHARED Game/Statuses
+
+EVENTS
+EVENT SP_CharacterSetWeb
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON 
+	FetchCharacterApplyStatusData(_Character, SP_WEB)
+ACTIONS
+	Set(_Result,SP_WEB)
+	ListClear(_RemoveList)
+	IF "c1&!c2"
+		CharacterHasStatus(_Character, SPIDER_LEGS)
+		CharacterHasStatus(_Character, HASTED)
+	THEN
+		Set(_Result,HASTED)		
+	ELIF "c1"
+		CharacterHasStatus(_Character, SPIDER_LEGS)
+	THEN
+		Set(_Result, null)/* Don't reapply Haste to avoid spam */
+	ELIF "c1&!c2"
+		CharacterHasStatus(_Character, HASTED)
+		CharacterHasStatus(_Character, SPIDER_LEGS)
+	THEN
+		ListAdd(_RemoveList, HASTED)
+	ENDIF		
+	RETURN(_RemoveList,_Result,null)
+	
+EVENT SP_CharacterSetBurning
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON 
+	FetchCharacterApplyStatusData(_Character, BURNING)
+ACTIONS
+	Set(_Result,BURNING)
+	ListClear(_RemoveList)
+	IF "c1&!c2"
+		CharacterHasStatus(_Character, WARM)
+		CharacterHasStatus(_Character, WET)
+	THEN
+		ListAdd(_RemoveList, WARM)
+	ELIF "c1&!c2"
+		CharacterHasStatus(_Character, WET)
+		CharacterHasStatus(_Character, WARM)
+	THEN
+		ListAdd(_RemoveList, WET)
+		Set(_Result, WARM)
+	ELIF "c1&c2"
+		CharacterHasStatus(_Character, WET)
+		CharacterHasStatus(_Character, WARM)
+	THEN
+		ListAdd(_RemoveList, WET)
+	ELIF "c1"
+		CharacterHasStatus(_Character, CHILLED)
+	THEN
+		ListAdd(_RemoveList, CHILLED)
+		Set(_Result, WARM)
+	ELIF "c1"
+		CharacterHasStatus(_Character, FROZEN)
+	THEN
+		ListAdd(_RemoveList, FROZEN)
+		Set(_Result, WET)
+	ELIF "c1|c2"
+		CharacterHasStatus(_Character, NECROFIRE)
+		CharacterHasStatus(_Character, HOLY_FIRE)
+	THEN
+		Set(_Result,null)
+	ENDIF
+	ListAdd(_RemoveList, SP_WEB)
+	RETURN(_RemoveList,_Result,null)
+
+	
+EVENT SP_CharacterSetSpiderLegs
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON 
+	FetchCharacterApplyStatusData(_Character, SPIDER_LEGS)
+ACTIONS
+	Set(_Result,SPIDER_LEGS)
+	ListAdd(_RemoveList, SP_WEB)
+	RETURN(_RemoveList,_Result,null)
+	
+EVENT SP_CharacterSetNecrofire
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON 
+	FetchCharacterApplyStatusData(_Character, NECROFIRE)
+ACTIONS
+	Set(_Result,NECROFIRE)
+	ListClear(_RemoveList)
+	IF "c1"
+		CharacterHasStatus(_Character, PETRIFIED)
+	THEN
+		Set(_Result,null)
+	ELSE
+		ListAdd(_RemoveList, WARM)
+		ListAdd(_RemoveList, BURNING)
+		ListAdd(_RemoveList, CHILLED)
+		ListAdd(_RemoveList, WET)
+		ListAdd(_RemoveList, FROZEN)
+		IF "c1"
+			CharacterHasStatus(_Character, HOLY_FIRE)
+		THEN
+			ListAdd(_RemoveList, HOLY_FIRE)		
+			Set(_Result, BURNING)
+		ELIF "c1"
+			CharacterHasStatus(_Character, BLESSED)
+		THEN
+			ListAdd(_RemoveList, BLESSED)		
+			Set(_Result, BURNING)		
+		ENDIF
+	ENDIF
+	IF "c1"
+		CharacterHasStatus(_Character,QUEST_OVERGROWN)
+	THEN
+		ListAdd(_RemoveList, QUEST_OVERGROWN)
+		Set(_Result,null)	
+	ENDIF
+	ListAdd(_RemoveList, SP_WEB)
+	RETURN(_RemoveList,_Result,null)
+	
+EVENT SP_CharacterSetHolyFire
+VARS
+	CHARACTER:_Character
+	LIST<STATUS>:_RemoveList
+	STATUS:_Result
+ON 
+	FetchCharacterApplyStatusData(_Character, HOLY_FIRE)
+ACTIONS
+	Set(_Result,HOLY_FIRE)
+	ListClear(_RemoveList)
+	IF "c1"
+		CharacterHasStatus(_Character, PETRIFIED)
+	THEN
+		Set(_Result,null)
+	ELSE
+		ListAdd(_RemoveList, WARM)
+		ListAdd(_RemoveList, BURNING)
+		ListAdd(_RemoveList, CHILLED)
+		ListAdd(_RemoveList, WET)
+		ListAdd(_RemoveList, FROZEN)
+		IF "c1"
+			CharacterHasStatus(_Character, NECROFIRE)
+		THEN
+			ListAdd(_RemoveList, NECROFIRE)	
+			Set(_Result, BURNING)
+		ENDIF
+	ENDIF
+	ListAdd(_RemoveList, SP_WEB)
+	RETURN(_RemoveList,_Result,null)

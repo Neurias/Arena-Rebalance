@@ -1,0 +1,7 @@
+new entry "SP_TAUNT_MUTE"
+type "StatusData"
+data "StatusType" "MUTED"
+data "ForGameMaster" "Yes"
+data "InitiateCombat" "Yes"
+data "FormatColor" "LightBlue"
+data "IsChanneled" "Yes"

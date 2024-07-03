@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="5d537a8b-7d4e-412b-a070-b23dc016aa4f">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaPolymorphWarfare_Mace2H" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Rarity" type="StringStatObjectFieldDefinition" value="All" />
+        <field name="RootTemplate" type="RootTemplateStatObjectFieldDefinition" value="d9bd8aee-d515-4aab-8eb9-d8bb065a362f" />
+        <field name="NameGroup" type="StringStatObjectFieldDefinition" value="SP_Rebalance_DallisHammer" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Item_WPN_Humans_Mace_2H_D_VAR" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

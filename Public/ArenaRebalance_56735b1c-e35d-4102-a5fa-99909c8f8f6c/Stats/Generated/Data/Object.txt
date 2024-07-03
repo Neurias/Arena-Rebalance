@@ -1,0 +1,8 @@
+new entry "SCROLL_Tornado_1"
+type "Object"
+using "_Scrolls"
+data "RootTemplate" "85db1ca7-d1cf-4afc-93f8-ccf8522e2f29"
+data "Act part" "9"
+data "UseAPCost" "1"
+data "Value" "260"
+

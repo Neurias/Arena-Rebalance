@@ -1,0 +1,22 @@
+new equipment "ArenaNecromancyRogue"
+add equipmentgroup
+add equipment entry "ArenaNecromancyRogue_Dagger_Main"
+add equipmentgroup
+add equipment entry "ArenaNecromancyRogue_Dagger_Off"
+add equipmentgroup
+add equipment entry "GRN_Grenade_Nailbomb_A"
+add equipmentgroup
+add equipment entry "POTION_Medium_Perception_Potion"
+
+new equipment "Soulcatcher_ZombieCrawler"
+add equipmentgroup
+add equipment entry "Soulcatcher_Zombie"
+
+new equipment "ArenaEarthRanger"
+add equipmentgroup
+add equipment entry "ArenaEarthRanger_Crossbow"
+add equipmentgroup
+add equipment entry "WPN_Arrow_SlowDown_A"
+add equipmentgroup
+add equipment entry "WPN_Arrow_Poison_Cloud_A"
+

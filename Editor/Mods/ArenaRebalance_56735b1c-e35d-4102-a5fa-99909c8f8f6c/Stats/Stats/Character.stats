@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a8098c1a-f86e-11da-bd1a-00112444be1e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirNecromancy" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="61" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="29" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="80" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="DualWielding" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="WaterSpecialist" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="AirSpecialist" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Necromancy" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="ViolentMagic" />
+        <field name="Wits" type="EnumerationStatObjectFieldDefinition" value="61" enumeration_type_name="PreciseQualifier" />
+        <field name="Memory" type="EnumerationStatObjectFieldDefinition" value="41" enumeration_type_name="PreciseQualifier" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="41" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="41" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="WarriorLore" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="WaterSpecialist" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="IceKing" />
+        <field name="SingleHanded" type="IntegerStatObjectFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaPolymorphWarfare" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="61" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="41" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="80" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="TwoHanded" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="WarriorLore" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="Executioner" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Polymorph" type="IntegerStatObjectFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaNecromancyWarfare" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="61" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="41" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="80" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="TwoHanded" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WarriorLore" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="Necromancy" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="WarriorLoreNaturalHealth" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaFireWarfare" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="61" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="41" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="80" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="TwoHanded" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="WarriorLore" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="FireSpecialist" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="AttackOfOpportunity" />
+        <field name="WaterSpecialist" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_Plant" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_ShamblingMound" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="51" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="41" enumeration_type_name="PreciseQualifier" />
+        <field name="Memory" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="Vitality" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="MagicPoints" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="400" />
+        <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="BigQualifier" />
+        <field name="Hearing" type="EnumerationStatObjectFieldDefinition" value="16" enumeration_type_name="Penalty Qualifier" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="-50" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="EarthSpecialist" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="4;37" enumeration_type_name="AttributeFlags" />
+        <field name="PathInfluence" type="StringStatObjectFieldDefinition" value="Web,50;BloodCloudCursed,50;BloodCloudElectrified,100;BloodCloudElectrifiedCursed,50;BloodCursed,50;BloodElectrified,100;BloodElectrifiedCursed,50;BloodFrozenCursed,50;FireCloudCursed,70;FireCursed,70;Lava,700;Oil,30;OilCursed,50;SmokeCloudCursed,50;WaterCloudCursed,50;WaterCloudElectrified,100;WaterCloudElectrifiedCursed,100;WaterCursed,50;WaterElectrified,100;WaterElectrifiedCursed,100;WaterFrozenCursed,50;Deathfog,200;" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Wits" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Accuracy" type="IntegerStatObjectFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARX_HorrorSleep_Sunset_Newt" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animal" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="18" enumeration_type_name="ActPart" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Memory" type="EnumerationStatObjectFieldDefinition" value="41" enumeration_type_name="PreciseQualifier" />
+        <field name="Wits" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="-50" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="2" enumeration_type_name="AttributeFlags" />
+        <field name="Vitality" type="IntegerStatObjectFieldDefinition" value="35" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaNecromancyRogue" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="61" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="75" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DualWielding" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RogueLore" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="WaterSpecialist" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="EarthSpecialist" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Necromancy" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="Leech" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthFire" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="61" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="29" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="70" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="DualWielding" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="FireSpecialist" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="EarthSpecialist" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="Torturer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWater" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="61" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="29" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="TwoHanded" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="WaterSpecialist" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="EarthSpecialist" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="LivingArmor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Animals_Slugs_Poison_Summon" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animal" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ActPart" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Memory" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Wits" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="Vitality" type="IntegerStatObjectFieldDefinition" value="80" />
+        <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="BigQualifier" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="30000" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="-25" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="-25" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="200" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="22;37" enumeration_type_name="AttributeFlags" />
+        <field name="PathInfluence" type="StringStatObjectFieldDefinition" value="Web,50;BloodCloudCursed,50;BloodCloudElectrified,100;BloodCloudElectrifiedCursed,50;BloodCursed,50;BloodElectrified,100;BloodElectrifiedCursed,50;BloodFrozenCursed,50;Fire,70;FireCloud,70;FireCloudCursed,70;FireCursed,70;Lava,700;Oil,30;OilCursed,50;PoisonCloudCursed,70;PoisonCursed,70;SmokeCloudCursed,50;WaterCloudCursed,50;WaterCloudElectrified,100;WaterCloudElectrifiedCursed,100;WaterCursed,50;WaterElectrified,100;WaterElectrifiedCursed,100;WaterFrozenCursed,50;Deathfog,200;" />
+        <field name="Accuracy" type="IntegerStatObjectFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Arena" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Hero" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="10" enumeration_type_name="ActPart" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Memory" type="EnumerationStatObjectFieldDefinition" value="61" enumeration_type_name="PreciseQualifier" />
+        <field name="Wits" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="MagicPoints" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="APMaximum" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="APStart" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="APRecovery" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="600" />
+        <field name="Hearing" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="Penalty Qualifier" />
+        <field name="PathInfluence" type="StringStatObjectFieldDefinition" value="Web,50;BloodCloudCursed,50;BloodCloudElectrified,100;BloodCloudElectrifiedCursed,50;BloodCursed,50;BloodElectrified,100;BloodElectrifiedCursed,50;BloodFrozen,30;BloodFrozenCursed,50;Fire,70;FireCloud,70;FireCloudCursed,70;FireCursed,70;Lava,700;Oil,30;OilCursed,50;Poison,70;PoisonCloud,70;PoisonCloudCursed,70;PoisonCursed,70;SmokeCloudCursed,50;WaterCloudCursed,50;WaterCloudElectrified,100;WaterCloudElectrifiedCursed,100;WaterCursed,50;WaterElectrified,100;WaterElectrifiedCursed,100;WaterFrozen,30;WaterFrozenCursed,50;Deathfog,200;" />
+        <field name="Accuracy" type="IntegerStatObjectFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaPolymorphRogue" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="71" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="70" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="35" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="DualWielding" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="RogueLore" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Polymorph" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="QuickStep" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Summons" />
+        <field name="Accuracy" type="IntegerStatObjectFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Ward" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Base" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="81" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Memory" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Wits" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Vitality" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="APMaximum" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="APStart" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="APRecovery" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MovementSpeedBoost" type="IntegerStatObjectFieldDefinition" value="-100" />
+        <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="BigQualifier" />
+        <field name="PathInfluence" type="StringStatObjectFieldDefinition" value="Web,50;BloodCloudCursed,50;BloodCloudElectrified,100;BloodCloudElectrifiedCursed,50;BloodCursed,50;BloodElectrified,100;BloodElectrifiedCursed,50;BloodFrozen,30;BloodFrozenCursed,50;Fire,70;FireCloud,70;FireCloudCursed,70;FireCursed,70;Lava,700;Oil,30;OilCursed,50;PoisonCloudCursed,70;PoisonCursed,70;SmokeCloudCursed,50;WaterCloudCursed,50;WaterCloudElectrified,100;WaterCloudElectrifiedCursed,100;WaterCursed,50;WaterElectrified,100;WaterElectrifiedCursed,100;WaterFrozen,30;WaterFrozenCursed,50;Deathfog,200;" />
+        <field name="Accuracy" type="IntegerStatObjectFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Animal" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Base" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="26" enumeration_type_name="PreciseQualifier" />
+        <field name="Memory" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="PreciseQualifier" />
+        <field name="Wits" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="BigQualifier" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="5000" />
+        <field name="Accuracy" type="IntegerStatObjectFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Animals_Wolf_A_Black" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animal" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="ActPart" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="41" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="BigQualifier" />
+        <field name="Sight" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Penalty Qualifier" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="25000" />
+        <field name="StepsType" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="StepsType" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="AttackOfOpportunity" />
+        <field name="Vitality" type="IntegerStatObjectFieldDefinition" value="80" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="61" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="67" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="25" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="SingleHanded" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="WarriorLore" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="EarthSpecialist" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="WhatARush" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_Oil_Slug" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animal" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Memory" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Wits" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Vitality" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="MagicPoints" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="BigQualifier" />
+        <field name="Hearing" type="EnumerationStatObjectFieldDefinition" value="16" enumeration_type_name="Penalty Qualifier" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="30000" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="-50" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="EarthSpecialist" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Polymorph" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="22;17" enumeration_type_name="AttributeFlags" />
+        <field name="PathInfluence" type="StringStatObjectFieldDefinition" value="Web,50;BloodCloudCursed,50;BloodCloudElectrified,100;BloodCloudElectrifiedCursed,50;BloodCursed,50;BloodElectrified,100;BloodElectrifiedCursed,50;BloodFrozenCursed,50;Fire,70;FireCloud,70;FireCloudCursed,70;FireCursed,70;Lava,700;OilCursed,50;PoisonCloudCursed,70;PoisonCursed,70;SmokeCloudCursed,50;WaterCloudCursed,50;WaterCloudElectrified,100;WaterCloudElectrifiedCursed,100;WaterCursed,50;WaterElectrified,100;WaterElectrifiedCursed,100;WaterFrozenCursed,50;Deathfog,200;" />
+        <field name="Accuracy" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="35" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Skeleton" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Base" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="36" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="26" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="26" enumeration_type_name="PreciseQualifier" />
+        <field name="Memory" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="PreciseQualifier" />
+        <field name="Wits" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="BigQualifier" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="35000" />
+        <field name="StepsType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="StepsType" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="12;4;38;21" enumeration_type_name="AttributeFlags" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="Zombie" />
+        <field name="PathInfluence" type="StringStatObjectFieldDefinition" value="Web,50;BloodCloudCursed,50;BloodCloudElectrified,100;BloodCloudElectrifiedCursed,50;BloodCursed,50;BloodElectrified,100;BloodElectrifiedCursed,50;BloodFrozen,30;BloodFrozenCursed,50;Fire,70;FireCloud,70;FireCloudCursed,70;FireCursed,70;Lava,700;Oil,30;OilCursed,50;PoisonCloudCursed,70;PoisonCursed,70;SmokeCloudCursed,50;WaterCloudCursed,50;WaterCloudElectrified,100;WaterCloudElectrifiedCursed,100;WaterCursed,50;WaterElectrified,100;WaterElectrifiedCursed,100;WaterFrozen,30;WaterFrozenCursed,50;" />
+        <field name="Accuracy" type="IntegerStatObjectFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="51" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="75" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="Ranged" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="RangerLore" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="EarthSpecialist" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="ElementalRanger" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="RogueLore" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="61" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="29" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="80" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="TwoHanded" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="WaterSpecialist" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="AirSpecialist" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="ElementalAffinity" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWarfare" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Arena" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="51" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="67" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="TwoHanded" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="WarriorLore" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="AirSpecialist" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="Polymorph" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Loremaster" type="IntegerStatObjectFieldDefinition" value="2" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="WalkItOff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_Bomber" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Base" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="PreciseQualifier" />
+        <field name="Memory" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Wits" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Vitality" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="MagicPoints" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="BigQualifier" />
+        <field name="Hearing" type="EnumerationStatObjectFieldDefinition" value="16" enumeration_type_name="Penalty Qualifier" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="5000" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="-100" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="12;4;33" enumeration_type_name="AttributeFlags" />
+        <field name="PathInfluence" type="StringStatObjectFieldDefinition" value="Web,50;BloodCloudCursed,50;BloodCloudElectrified,100;BloodCloudElectrifiedCursed,50;BloodCursed,50;BloodElectrified,100;BloodElectrifiedCursed,50;BloodFrozenCursed,50;Fire,70;FireCloud,70;FireCloudCursed,70;FireCursed,70;Lava,700;Oil,30;OilCursed,50;Poison,70;PoisonCloud,70;PoisonCloudCursed,70;PoisonCursed,70;SmokeCloudCursed,50;WaterCloudCursed,50;WaterCloudElectrified,100;WaterCloudElectrifiedCursed,100;WaterCursed,50;WaterElectrified,100;WaterElectrifiedCursed,100;WaterFrozenCursed,50;Deathfog,200;" />
+        <field name="MovementSpeedBoost" type="IntegerStatObjectFieldDefinition" value="-100" />
+        <field name="Accuracy" type="IntegerStatObjectFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_Fire_Slug" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Animal" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Finesse" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Intelligence" type="EnumerationStatObjectFieldDefinition" value="31" enumeration_type_name="PreciseQualifier" />
+        <field name="Constitution" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="PreciseQualifier" />
+        <field name="Memory" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Wits" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="PreciseQualifier" />
+        <field name="Armor" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="MagicArmor" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="Vitality" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="MagicPoints" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="BigQualifier" />
+        <field name="Hearing" type="EnumerationStatObjectFieldDefinition" value="16" enumeration_type_name="Penalty Qualifier" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="30000" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="-50" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="FireSpecialist" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="22;2" enumeration_type_name="AttributeFlags" />
+        <field name="PathInfluence" type="StringStatObjectFieldDefinition" value="Web,50;BloodCloudCursed,50;BloodCloudElectrified,100;BloodCloudElectrifiedCursed,50;BloodCursed,50;BloodElectrified,100;BloodElectrifiedCursed,50;BloodFrozenCursed,50;Lava,700;Oil,30;OilCursed,50;PoisonCloudCursed,70;PoisonCursed,70;SmokeCloudCursed,50;WaterCloudCursed,50;WaterCloudElectrified,100;WaterCloudElectrifiedCursed,100;WaterCursed,50;WaterElectrified,100;WaterElectrifiedCursed,100;WaterFrozenCursed,50;Deathfog,200;" />
+        <field name="Accuracy" type="IntegerStatObjectFieldDefinition" value="100" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

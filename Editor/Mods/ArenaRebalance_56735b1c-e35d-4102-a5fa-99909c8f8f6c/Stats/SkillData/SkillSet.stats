@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="68e50044-f0bd-499d-94ad-7aa52f7abe18">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Rain_Water" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_WinterBlast" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaAirWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_FrostAura" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaAirWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_substat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="ProjectileStrike_HailStrike" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaAirWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_substat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_PressureSpike" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaAirWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_substat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_LightningBolt" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaAirWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_substat_5" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Teleportation_FreeFall" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaAirWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_substat_6" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_Superconductor" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaAirWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_substat_7" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_TimeWarp" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaAirWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_substat_8" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="ProjectileStrike_HailAttack" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaAirWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_substat_9" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_SourceVampirism" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaAirWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_substat_10" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Curse" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaAirWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaAirWater_substat_11" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Bless" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaAirWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="ProjectileStrike_HailStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_IceFan" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaWarfareWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_substat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_IceBreaker" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaWarfareWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Restoration" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaWarfareWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_substat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_GuardianAngel" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaWarfareWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_substat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CripplingBlow" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaWarfareWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_substat_5" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_BouncingShield" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaWarfareWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_substat_6" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_PhoenixDive" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaWarfareWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_substat_7" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_SteamLance" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaWarfareWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_substat_8" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="ProjectileStrike_HailAttack" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaWarfareWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_substat_9" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_SourceVampirism" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaWarfareWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_substat_10" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Curse" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaWarfareWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaWarfareWater_substat_11" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Bless" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaWarfareWater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_VenomCoating" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_Ricochet" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthRanger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_PiercingShot" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthRanger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_substat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_PinDown" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthRanger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_substat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Jump_TacticalRetreat" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthRanger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_substat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_FirstAid" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthRanger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_substat_5" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_PoisonDartStart" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthRanger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_substat_6" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_ThrowDust" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthRanger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_substat_7" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_ArrowSpray" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthRanger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_substat_8" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_PyroclasticEruption" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthRanger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_substat_9" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_SourceVampirism" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthRanger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_substat_10" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Curse" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthRanger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthRanger_substat_11" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Bless" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthRanger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_Bomber" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_SP_Suicide" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Fortify" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_ReactiveArmor" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_substat_1" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_MendMetal" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_substat_2" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Cone_GroundSmash" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_substat_3" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_CripplingBlow" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_substat_4" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Projectile_BouncingShield" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_substat_5" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_DeflectiveBarrier" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_substat_6" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_GuardianAngel" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_substat_7" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_MassOilyCarapace" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_substat_8" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Overpower" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_substat_9" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_SourceVampirism" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_substat_10" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Curse" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ArenaEarthWarfare_substat_11" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Bless" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ArenaEarthWarfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_OilBlob" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Shout_EnemyOilyCarapace" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Summon_OilBlob_substat_0" />
+        <field name="Skills" type="StatReferenceStatObjectFieldDefinition" stat_name="Target_Condense" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="Summon_OilBlob" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
